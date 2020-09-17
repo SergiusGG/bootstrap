@@ -1,0 +1,307 @@
+    body {
+        /* width: 100%; */
+        text-decoration: none;
+        font-family: 'Pirata One', 'Trade Winds';
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23000000' fill-opacity='0.06'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    
+    body a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    body a:hover {
+        text-decoration: none;
+        color: orange;
+    }
+    
+    .pie {
+        background-image: url('../img/b1.jpg');
+    }
+    
+    .midbanner {
+        display: flex;
+        justify-content: space-evenly;
+        width: 92%;
+        background: url('../img/baner9.jpg') no-repeat center center fixed;
+        background-size: cover;
+        padding: 3% 3% 0 2%;
+        margin-bottom: 10%;
+        /* margin-left: 4%; */
+    }
+    
+    .header {
+        background-image: url('../img/b3.jpg');
+    }
+    
+    .mando {
+        width: 110px;
+        height: 100px;
+    }
+    
+    .lt,
+    .lf {
+        width: 20px;
+    }
+    
+    .lr {
+        width: 25px;
+    }
+    /* h2 está en rojo para destacar pero con un tamaño de letra no muy grande para que destaque por encima del resto, ya que no es lo más importante */
+    
+    body h2 {
+        color: red;
+        text-align: start;
+    }
+    
+    h3,
+    h1 {
+        color: black;
+    }
+    
+    @media (max-width: 768px) {
+        .rightd img {
+            width: 70%;
+        }
+        .menu {
+            width: 100%;
+            font-size: 3vw;
+        }
+        .lt,
+        .lf {
+            width: 20px;
+        }
+        .lr {
+            width: 25px;
+        }
+        article img {
+            width: 100%
+        }
+        hr {
+            margin-bottom: 1rem;
+            border-top: 5px solid black;
+        }
+        .pie a {
+            color: white;
+            text-decoration: none;
+        }
+        a {
+            color: black;
+        }
+        .art a {
+            margin-top: -5%;
+            background: white;
+        }
+        .prin h2 {
+            margin-top: 5%;
+        }
+        .art {
+            margin-bottom: 15%;
+        }
+        /* h1 esta superpuesto a la imagen y tiene un fondo blanco para que destaque */
+        .banner h1 {
+            margin-top: -4%;
+            text-align: left;
+            font-size: 1.1rem;
+            color: white;
+            margin-left: 2%;
+            margin-bottom: 6%;
+        }
+        .inicio a {
+            color: white;
+        }
+        /* los h3 estan superpuestos a las imágenes y tienen un fondo blanco para que destaquen */
+        .prin h3 {
+            width: 45%;
+            position: absolute;
+            background: white;
+            font-size: 3vw;
+            border-bottom: solid;
+            margin: -6% 0 0 25%;
+        }
+        .sec h3 {
+            position: absolute;
+            font-size: 2.5vw;
+            background: white;
+            margin-top: -48%;
+            margin-left: 41%;
+            border-right: solid;
+            width: 50%;
+        }
+        .thi h3 {
+            position: absolute;
+            font-size: 2.5vw;
+            background: white;
+            margin-top: -48%;
+            margin-left: 41%;
+            border-right: solid;
+            width: 50%;
+        }
+        .prin p {
+            width: 22%;
+            font-size: 2.6vw;
+            letter-spacing: 0.2rem;
+            float: right;
+            margin-right: 2%;
+        }
+        .prin img {
+            width: 75%;
+        }
+        .banner h1 {
+            font-size: 1.2rem;
+            background: white;
+            color: black;
+            width: auto;
+            position: absolute;
+            margin: -3% 0 0 1%;
+        }
+    }
+    
+    @media (max-width: 992px) and (min-width:768px) {
+        hr {
+            border-width: 5px;
+            margin-bottom: 5%;
+            border-top: 5px solid black;
+        }
+        .inicio {
+            display: flex;
+            /* margin-left: 5%; */
+            justify-content: space-between;
+        }
+        .prin p {
+            width: 22%;
+            font-size: 2.2vw;
+            letter-spacing: .8vw;
+            float: right;
+            margin-right: 2%;
+        }
+        .prin img {
+            width: 73%;
+        }
+        .thi img {
+            width: 80%;
+            margin-left: 12%;
+        }
+        .sec img {
+            width: 80%;
+        }
+        .sec {
+            text-align: center;
+        }
+        .thi {
+            text-align: center;
+        }
+        .banner h1 {
+            position: absolute;
+            font-size: 3vw;
+            background: white;
+            margin-top: -3.2%;
+            margin-left: .8%;
+            border-right: solid;
+            width: auto;
+        }
+        /* los h3 estan superpuestos a las imágenes y tienen un fondo blanco para que destaquen */
+        .prin h3 {
+            width: 50%;
+            position: absolute;
+            background: white;
+            color: black;
+            font-size: 2.5vw;
+            border-bottom: solid;
+            margin: -2% 0 0 21%;
+        }
+        .sec h3 {
+            position: absolute;
+            font-size: 1.8vw;
+            background: white;
+            margin-top: -40%;
+            margin-left: 42%;
+            border-right: solid;
+            width: 50%;
+        }
+        .thi h3 {
+            position: absolute;
+            font-size: 1.8vw;
+            background: white;
+            margin-top: -40%;
+            margin-left: 42%;
+            border-right: solid;
+            width: 50%;
+        }
+        .menu {
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: 2.8vw;
+            align-items: center;
+        }
+        body h2 {
+            font-size: 2vw;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        /* los h3 estan superpuestos a las imágenes y tienen un fondo blanco para que destaquen */
+        .prin h3 {
+            width: 50%;
+            position: absolute;
+            background: white;
+            font-size: 1.6vw;
+            border-bottom: solid;
+            margin: -4% 0 0 22%;
+        }
+        .sec h3 {
+            position: absolute;
+            font-size: 1.3vw;
+            background: white;
+            margin-top: -50%;
+            margin-left: 25%;
+            border-right: solid;
+            width: 70%;
+        }
+        .thi h3 {
+            position: absolute;
+            font-size: 1.3vw;
+            background: white;
+            margin-top: -48%;
+            margin-left: 25%;
+            border-right: solid;
+            width: 70%;
+        }
+        hr {
+            margin-bottom: 1rem;
+            border-top: 3px solid black;
+        }
+        .prin p {
+            width: 22%;
+            font-size: 1.5vw;
+            letter-spacing: 0.2rem;
+            float: right;
+        }
+        .prin img {
+            width: 75%;
+        }
+        .sec {
+            margin-right: 2%;
+        }
+        .thi {
+            margin-right: 2%;
+        }
+        .banner h1 {
+            position: absolute;
+            font-size: 2vw;
+            background: white;
+            margin-top: -2.2%;
+            margin-left: .5%;
+            border-right: solid;
+            width: auto;
+        }
+        .menu {
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: 1.8vw;
+            align-items: center;
+        }
+        body h2 {
+            font-size: 1.4vw;
+        }
+    }
